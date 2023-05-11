@@ -16,7 +16,7 @@ h2 {
 	padding: 5px;
 }
 
-div#zentai {
+div.zentai {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 200px 200px;
@@ -24,7 +24,7 @@ div#zentai {
 }
 
 div#zentai > div {
-	background:
+	background:#e5b710;
 }
 
 
