@@ -16,6 +16,10 @@ h2 {
 	padding: 5px;
 }
 
+h2.target {
+	padding: 5px;
+}
+
 div#zentai {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
