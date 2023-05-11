@@ -16,4 +16,4 @@ let gakka = [
 
 //////////////// ここから下にプログラムを書きたそう!
 
-console.log(address);
+console.log("八王子市館町");
