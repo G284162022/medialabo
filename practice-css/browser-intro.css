@@ -3,36 +3,25 @@ p {
 }
 
 p.info {
-	font-size: small;
-	background-color:#dfdfdf;
+	font-size: 10pt;
 }
 
 h1 {
-	color:white;
-	text-shadow:navy;
+	background-color: #7f7fcf;
 }
 
 h2 {
 	border: solid 1px black;
-	padding: 5px;
-}
-
-h2.target {
-	padding: 5px;
+	margin: 5px;
 }
 
 div#zentai {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-auto-rows: 200px 200px;
-	grid-gap: 10px;
+	display: flex;
+	flex-direction: row;
+	width: 1024px;
 }
 
 div#zentai > div {
-	background:#e5b710;
-}
-
-
-img.sign {
-	float: right;
+	margin-left: 5px;
+	background-color: #ffefaf;
 }
