@@ -14,8 +14,8 @@ h1 {
 
 h2 {
 	margin: 5px;
-	font-family: cursive;
 	color: #3f3faf;
+	font-family: cursive;
 	background: linear-gradient(to right, white, #ffefaf);
 }
 
@@ -24,7 +24,6 @@ div#zentai {
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 200px;
 	grid-gap: 10px;
-
 }
 
 div#zentai > div {
