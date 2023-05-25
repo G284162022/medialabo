@@ -2,7 +2,7 @@
 // 1. イベントハンドラの登録
 
 let b1 = document.querySelector('button#blue');
-let b2 = document.querySelector('button#randome');
+let b2 = document.querySelector('button#random');
 b1.addEventListener('click', changeH1ColorRed);
 b2.addEventListener('click', changeBackgroundColorRandom);
 
