@@ -206,7 +206,6 @@ b.addEventListener('click', sendRequest);
 
 
 function sendRequest() {
-  // URL を設定
   let url = 'https://www.nishita-lab.org/web-contents/jsons/hotpepper/G006.josn';
 
 axios.get(url)
