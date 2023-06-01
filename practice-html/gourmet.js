@@ -201,7 +201,7 @@ let data = {
 
 /////////// 課題3-2 ここからプログラムを書こう
 
-let b=document.querySelector('#sendRequest');
+let b=document.querySelector('button#sendRequest');
 b.addEventListener('click', sendRequest);
 
 
