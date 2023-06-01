@@ -208,4 +208,29 @@ b.addEventListener('click', sendRequest);
 function sendRequest() {
   // URL を設定
   let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/2643743.json';
+
+axios.get(url)
+.then(showResult)   
+.catch(showError)   
+.then(finish);      
+}
+
+function showResult(resp) {
+let data = resp.data;
+
+if (typeof data === 'string') {
+data = JSON.parse(data);
+}
+
+console.log(data);
+
+console.log(data.x);
+}
+
+function showError(err) {
+console.log(err);
+}
+
+function finish() {
+console.log('Ajax 通信が終わりました');
 }
