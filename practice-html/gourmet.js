@@ -208,6 +208,7 @@ b.addEventListener('click', sendRequest);
 function sendRequest() {
   let url = 'https://www.nishita-lab.org/web-contents/jsons/hotpepper/G006.josn';
   console.log(url);
+  
 axios.get(url)
 .then(showResult)   
 .catch(showError)   
