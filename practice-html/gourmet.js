@@ -207,7 +207,7 @@ b.addEventListener('click', sendRequest);
 
 function sendRequest() {
   // URL を設定
-  let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/2643743.json';
+  let url = 'https://www.nishita-lab.org/web-contents/jsons/hotpepper/G006.josn';
 
 axios.get(url)
 .then(showResult)   
