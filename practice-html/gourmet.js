@@ -201,3 +201,11 @@ let data = {
 
 /////////// 課題3-2 ここからプログラムを書こう
 
+let b=document.querySelector('#sendRequest');
+b.addEventListener('click', sendRequest);
+
+
+function sendRequest() {
+  // URL を設定
+  let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/2643743.json';
+}
