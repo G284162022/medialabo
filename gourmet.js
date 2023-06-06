@@ -201,36 +201,5 @@ let data = {
 
 /////////// 課題3-2 ここからプログラムを書こう
 
-let b=document.querySelector('button#sendRequest');
-b.addEventListener('click', sendRequest);
 
-
-function sendRequest() {
-  let url = 'https://www.nishita-lab.org/web-contents/jsons/hotpepper/G006.josn';
-  console.log(url);
-  
-axios.get(url)
-.then(showResult)   
-.catch(showError)   
-.then(finish);      
-}
-
-function showResult(resp) {
-let data = resp.data;
-
-if (typeof data === 'string') {
-data = JSON.parse(data);
-}
-
-console.log(data);
-
-console.log(data.x);
-}
-
-function showError(err) {
-console.log(err);
-}
-
-function finish() {
-console.log('Ajax 通信が終わりました');
-}
+console.log('店舗名(' + data.results.shop.name + ')');
