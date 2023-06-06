@@ -14,13 +14,26 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
-let x=document.querySelector('p#text-emphasis');
 
 // 練習4-3 写真表作成プログラム
 
+let students = [
+    {face:"taro.png"},
+    {face:"jiro.png"},
+    {face:"hanako.png"}
+]
+let dp = document.querySelector('div#phototable')
+for (let student of students) {
+    let img = document.createElement('img');                                                                                        let d = document.createElement('div');
+    let p=document.createElement('p');
+    img.setAttribute('src', student.face);
+
+    p.insertAdjacentElement('beforeend', img);   dp.insertAdjacentElement('beforeend', p);
+}
 
 // 練習4-4 箇条書き削除プログラム
-
+let w=document.querySelector('ul#location');
+w.remove();
 
 // 練習4-5 箇条書き追加プログラム
 
