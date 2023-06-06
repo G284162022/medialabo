@@ -14,7 +14,7 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
-
+let x=document.querySelector('p#text-emphasis');
 
 // 練習4-3 写真表作成プログラム
 
