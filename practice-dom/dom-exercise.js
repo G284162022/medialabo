@@ -32,8 +32,16 @@ for (let student of students) {
 }
 
 // 練習4-4 箇条書き削除プログラム
+
 let w=document.querySelector('ul#location');
 w.remove();
 
 // 練習4-5 箇条書き追加プログラム
 
+for(let da of data){
+	let name=document.createElement('name');  
+	let lat=document.createElement('lat');	
+	let lng=document.createElement('lng');																																																																																																																																																																																																																																																																																							
+	let li=document.createElement('li');			
+	ul.insertAdjacentElement('beforeend', name);			
+}
