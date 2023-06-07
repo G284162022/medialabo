@@ -201,5 +201,6 @@ let data = {
 
 /////////// 課題3-2 ここからプログラムを書こう
 
-
-console.log('店舗名(' + data.results.shop.name + ')');
+for(let n of data){
+  console.log(shop.name);
+}
