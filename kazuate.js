@@ -4,7 +4,8 @@ console.log('答え（デバッグ用）: ' + kotae);
 
 // 入力回数（予想回数）
 let kaisu = 0;
-
+let kekka=0;
+let yoso;
 
 
 // 予想を4回実行する
@@ -18,7 +19,6 @@ function hantei() {
 
   let intext=document.querySelector('input[name="seisu"]');
   let yoso=parseInt(intext.value);
-  
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
