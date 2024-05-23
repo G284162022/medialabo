@@ -33,7 +33,7 @@ for (let student of students) {
 
 // 練習4-4 箇条書き削除プログラム
 
-let w=document.querySelectorAll('ul#location > li');
-w.remove();
+let w = document.querySelector('ul#location');
+w.remove();										
 
 // 練習4-5 箇条書き追加プログラム
