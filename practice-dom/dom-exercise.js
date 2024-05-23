@@ -24,7 +24,7 @@ let students = [
 ]
 let dp = document.querySelector('div#phototable')
 for (let student of students) {
-    let img = document.createElement('img');                                                                                        let d = document.createElement('div');
+    let img = document.createElement('img');     let d = document.createElement('div');
     let p=document.createElement('p');
     img.setAttribute('src', student.face);
 
