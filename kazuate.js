@@ -5,7 +5,7 @@ console.log('答え（デバッグ用）: ' + kotae);
 // 入力回数（予想回数）
 let kaisu = 0;
 let kekka=0;
-let yoso;
+let yoso=4;
 
 
 // 予想を4回実行する
