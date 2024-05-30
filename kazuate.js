@@ -17,8 +17,8 @@ hantei();
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
 
-  let intext=document.querySelector('input[name="seisu"]');
-  let yoso=parseInt(intext.value);
+  //let intext=document.querySelector('input[name="seisu"]');
+  //let yoso=parseInt(intext.value);
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
